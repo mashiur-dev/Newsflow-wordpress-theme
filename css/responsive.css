@@ -1,0 +1,90 @@
+/*
+.list_single_post .thumb_content {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+	width: 30%;
+	text-align: left;
+	margin-right: 70%;
+}
+.list_single_post .thumb_content + .box_content {
+	display: inline-block;
+	float: right;
+	width: 68%;
+	padding: 0 2px;
+	margin-left: -68%;
+}
+*/
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    
+    /*********************
+        header style
+    **********************/
+    .site_logo img {
+        margin: 15px 0;
+    }
+    .header_middle .search_form {
+        margin-top: 20px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    /*********************
+        Header style
+    **********************/
+    .header_middle .search_form {
+        margin-top: 15px;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    /*********************
+        Header style
+    **********************/
+    .header_middle .search_form {
+        margin-top: 10px;
+    }
+    .top_news_content h1 {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+    .top_news_content p {
+        font-size: 12px;
+    }
+    
+    /*********************
+        Footer style
+    **********************/
+    .copyright_text {
+        font-size: 12px;
+    }
+    .copyright_text span {
+        display: block;
+        border-left: 0px solid;
+        margin: 4px 0;
+        padding: 0;
+    }
+    
+}
